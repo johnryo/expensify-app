@@ -17,10 +17,10 @@
 }
 
 .box-layout__title {
-  margin: 0 0 $med-size 0;
+  margin-bottom: $med-size;
   line-height: 1;
 }
 
-// .box-layout__subtitle {
-//   margin: 0 0 $sm-size 0;
-// }
+.box-layout__subtitle {
+  margin-bottom: $med-size;
+}

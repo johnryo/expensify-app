@@ -1,8 +1,10 @@
 {
   "name": "expensify",
   "version": "1.0.0",
-  "description": "",
+  "description": "App to keep track of expenses",
   "main": "index.js",
+  "author": "John Oggerino",
+  "license": "ISC",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
@@ -11,9 +13,6 @@
     "start": "node server/server.js",
     "heroku-postbuild": "npm run build:prod"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
